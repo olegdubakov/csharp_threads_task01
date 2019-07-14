@@ -1,3 +1,7 @@
 packages/
 SimpleSynchronization/bin/
 SimpleSynchronization/obj/
+PipelineSynchronization/bin/
+PipelineSynchronization/obj/
+ProducerConsumerSynchronization/bin/
+ProducerConsumerSynchronization/obj/

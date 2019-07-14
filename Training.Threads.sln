@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSynchronization", "SimpleSynchronization\SimpleSynchronization.csproj", "{93E89854-BF55-4D4F-8B7C-443F70696BE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProducerConsumerSynchronization", "ProducerConsumerSynchronization\ProducerConsumerSynchronization.csproj", "{A24D32DD-7A37-47BD-8971-5024B3F1005D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineSynchronization", "PipelineSynchronization\PipelineSynchronization.csproj", "{68FD26E5-C87B-42FF-918D-2EBB7E985D0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{93E89854-BF55-4D4F-8B7C-443F70696BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E89854-BF55-4D4F-8B7C-443F70696BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E89854-BF55-4D4F-8B7C-443F70696BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24D32DD-7A37-47BD-8971-5024B3F1005D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24D32DD-7A37-47BD-8971-5024B3F1005D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24D32DD-7A37-47BD-8971-5024B3F1005D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24D32DD-7A37-47BD-8971-5024B3F1005D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FD26E5-C87B-42FF-918D-2EBB7E985D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FD26E5-C87B-42FF-918D-2EBB7E985D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FD26E5-C87B-42FF-918D-2EBB7E985D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FD26E5-C87B-42FF-918D-2EBB7E985D0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
