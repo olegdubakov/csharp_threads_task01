@@ -5,6 +5,7 @@
     using Models;
     using Pipeline;
     using Processors;
+    using Factories;
 
     class Program
     {
@@ -15,6 +16,7 @@
 
             new Pipeline<Site>(
                     config.GetSiteList(), 
+                    new PipelineElementFactory<Site>(), 
                     new IProcessor<Site>[]
                     {
                         new SiteReaderProcessor(),

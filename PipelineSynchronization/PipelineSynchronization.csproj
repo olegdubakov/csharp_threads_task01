@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\PipelineElementFactory.cs" />
     <Compile Include="Helpers\Configuration.cs" />
     <Compile Include="Helpers\CustomHtmlToTxtParser.cs" />
     <Compile Include="Helpers\CustomHtmlToJsonParser.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="Interfaces\IFileWriter.cs" />
     <Compile Include="Interfaces\IParser.cs" />
     <Compile Include="Interfaces\IPipeline.cs" />
+    <Compile Include="Interfaces\IPipelineElemenFactory.cs" />
     <Compile Include="Interfaces\IProcessor.cs" />
     <Compile Include="Interfaces\IPipelineElement.cs" />
     <Compile Include="Models\Site.cs" />
